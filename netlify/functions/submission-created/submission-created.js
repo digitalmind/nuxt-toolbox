@@ -21,6 +21,7 @@ const handler = async (event) => {
     })
     const data = await response.json()
     console.log(`Submitted to Buttondown:\n ${data}`)
+    console.log(EMAIL_TOKEN)
   } catch (error) {
     return { statusCode: 422, body: String(error) }
   }
