@@ -21,7 +21,6 @@
       </p>
     </div>
     <FeedbackForm />
-    <JokeBlock />
   </main>
 </template>
 
